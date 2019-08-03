@@ -72,11 +72,13 @@ ul li a {
     display: inline-block;
 }
 
-.projectWrapper div {
+.projectWrapper .projectText{
     
     position: relative;
     bottom:80px; 
 }
+
+
 .projectWrapper div p {
     
     width: 100%;
@@ -111,4 +113,17 @@ input[type=text], select, textarea {
   
   input[type=submit]:hover {
     background-color: #45a049;
+  }
+
+  .imgContainer {
+    width: 300px;
+    height: 300px;
+    
+
+  }
+
+  .imgContainer img {
+    max-width: 100%;
+    max-height: 100%;
+
   }
